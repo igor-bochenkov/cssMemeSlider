@@ -235,3 +235,39 @@ img {
 		transform: translateX(0);
 	}
 }
+
+/* -------------------- Адаптив -------------------------------------------------- */
+@media (max-width: 50em) {
+	.slider-page__title {
+		font-size: 3rem;
+	}
+	.slider__descriptions {
+		flex: 0 1 100%;
+		order: 3;
+	}
+	.slider__controls {
+		flex: 0 0 100%;
+		order: 2;
+		justify-content: center;
+		margin-bottom: 1.5em;
+	}
+	.slider__descriptions {
+		margin-bottom: 1em;
+	}
+}
+
+@media (max-width: 30em) {
+	.slider-page__title {
+		font-size: 2rem;
+	}
+	.slider__controls {
+		margin-bottom: 0.8em;
+	}
+	.slider__images {
+		margin-bottom: 1.2em;
+	}
+	.slider__descriptions {
+		font-size: 1.2rem;
+		line-height: 1em;
+	}
+}
