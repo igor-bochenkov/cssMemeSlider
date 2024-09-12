@@ -203,3 +203,35 @@ img {
 	display: block;
 	animation: visibleText 0.7s;
 }
+
+/* -------------------- Анимации и интерактивность ------------------------------- */
+@media (hover: hover) {
+	.slider__point:hover span {
+		border: 0.2em solid #FAED26;
+	}
+}
+.slider__point:active span {
+	background-color: #faec265f;
+}
+
+@keyframes visibleImg {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes visibleText {
+	0% {
+		opacity: 0;
+		transform: translateY(1.2em);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
