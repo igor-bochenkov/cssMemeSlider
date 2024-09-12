@@ -104,11 +104,6 @@ body {
 .slider__image {
 	display: none;
 }
-/*!                */
-.image-1 {
-	display: block;
-}
-/*!                */
 img {
 	max-width: 100%;
 }
@@ -147,7 +142,64 @@ img {
 .slider__description {
 	display: none;
 }
-/*                       */
-.description-1{
+
+/* -------------------- Функционал слайдера ---------------------------------------*/
+#meme-1:checked ~ .slider__controls label:nth-child(1) span {
+	background-color: #FAED26;
+}
+#meme-1:checked ~ .slider__images > .image-1 {
 	display: block;
+	animation: visibleImg 0.7s;
+}
+#meme-1:checked ~ .slider__descriptions > .description-1 {
+	display: block;
+	animation: visibleText 0.7s;
+}
+
+#meme-2:checked ~ .slider__controls label:nth-child(2) span {
+	background-color: #FAED26;
+}
+#meme-2:checked ~ .slider__images > .image-2 {
+	display: block;
+	animation: visibleImg 0.7s;
+}
+#meme-2:checked ~ .slider__descriptions > .description-2 {
+	display: block;
+	animation: visibleText 0.7s;
+}
+
+#meme-3:checked ~ .slider__controls label:nth-child(3) span {
+	background-color: #FAED26;
+}
+#meme-3:checked ~ .slider__images > .image-3 {
+	display: block;
+	animation: visibleImg 0.7s;
+}
+#meme-3:checked ~ .slider__descriptions > .description-3 {
+	display: block;
+	animation: visibleText 0.7s;
+}
+
+#meme-4:checked ~ .slider__controls label:nth-child(4) span {
+	background-color:#FAED26;
+}
+#meme-4:checked ~ .slider__images > .image-4 {
+	display: block;
+	animation: visibleImg 0.7s;
+}
+#meme-4:checked ~ .slider__descriptions > .description-4 {
+	display: block;
+	animation: visibleText 0.7s;
+}
+
+#meme-5:checked ~ .slider__controls label:nth-child(5) span {
+	background-color:#FAED26;
+}
+#meme-5:checked ~ .slider__images > .image-5 {
+	display: block;
+	animation: visibleImg 0.7s;
+}
+#meme-5:checked ~ .slider__descriptions > .description-5 {
+	display: block;
+	animation: visibleText 0.7s;
 }
